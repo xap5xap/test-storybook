@@ -8,8 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "serve-storybook": "serve storybook-static"
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@types/node": "18.11.15",
@@ -32,7 +31,6 @@
     "@storybook/manager-webpack5": "^6.5.14",
     "@storybook/react": "^6.5.14",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.3.0",
-    "storybook-addon-next": "^1.7.1"
+    "babel-loader": "^8.3.0"
   }
 }
