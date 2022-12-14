@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
     "serve-storybook": "serve storybook-static"
   },
   "dependencies": {
@@ -32,6 +32,7 @@
     "@storybook/manager-webpack5": "^6.5.14",
     "@storybook/react": "^6.5.14",
     "@storybook/testing-library": "^0.0.13",
-    "babel-loader": "^8.3.0"
+    "babel-loader": "^8.3.0",
+    "storybook-addon-next": "^1.7.1"
   }
 }
