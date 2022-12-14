@@ -17,10 +17,10 @@ module.exports = {
     },
   ],
   env: (config) => {
-    console.log('main.js - config env')
+    console.log("main.js - config env2", env);
     return {
       ...config,
-      MAPBOX: "nina",
+      MAPBOX: process.env.MAPBOX,
     };
   },
   framework: "@storybook/react",
