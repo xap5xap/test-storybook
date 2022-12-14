@@ -13,7 +13,7 @@ export default {
 } as ComponentMeta<typeof Header>;
 
 const Template: ComponentStory<typeof Header> = (args: any) => {
-  console.log("Template - args.MAPBOX - 1", args.MAPBOX);
+  console.log("Template - args.MAPBOX - 2", args.MAPBOX);
 
   return <Header {...args} />;
 };
