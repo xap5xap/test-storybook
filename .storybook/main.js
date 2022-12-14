@@ -16,6 +16,13 @@ module.exports = {
       },
     },
   ],
+  env: (config) => {
+    console.log('main.js - config env')
+    return {
+      ...config,
+      MAPBOX: "nina",
+    };
+  },
   framework: "@storybook/react",
   core: {
     builder: "@storybook/builder-webpack5",
