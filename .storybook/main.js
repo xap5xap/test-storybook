@@ -17,7 +17,7 @@ module.exports = {
     },
   ],
   env: (config) => {
-    console.log("main.js - config env2", env);
+    console.log("main.js - config env2", config);
     return {
       ...config,
       MAPBOX: process.env.MAPBOX,
